@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tanggal -->
+    <EditText
+        android:id="@+id/editTextTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Tanggal"
+        android:textSize="14sp"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <!-- Tinggi -->
+    <EditText
+        android:id="@+id/editTextTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:textSize="14sp" />
+
+    <!-- Jumlah Daun -->
+    <EditText
+        android:id="@+id/editTextJumlahDaun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Daun"
+        android:textSize="14sp" />
+
+    <!-- Panjang Batang -->
+    <EditText
+        android:id="@+id/editTextPanjangBatang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang Batang"
+        android:textSize="14sp" />
+
+    <!-- Tombol Save -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/green"/>
+</LinearLayout>
